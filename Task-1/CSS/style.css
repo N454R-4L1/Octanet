@@ -1,0 +1,80 @@
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #006600; /* Green */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-family: "Lobster", cursive;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #ff3333; /* Light Red */
+  color: #fff;
+}
+
+.intro img {
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.achievements,
+.admiration {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.achievements h2,
+.admiration h2 {
+  color: #006600; /* Green */
+  font-family: "Lobster", cursive;
+  border-bottom: 2px solid #ff3333; /* Light Red */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.achievements ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+
+.achievements ul li {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #006600; /* Green */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
